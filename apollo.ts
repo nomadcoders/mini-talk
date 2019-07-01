@@ -29,7 +29,6 @@ const client = new ApolloClient({
       if (networkError) console.log(`[Network error]: ${networkError}`);
     }),
     split(
-      // split based on operation type
       ({ query }) => {
         const definition = getMainDefinition(query);
         return (
