@@ -12,6 +12,7 @@ export default function App() {
     setStatus(status as any);
     let token = await Notifications.getExpoPushTokenAsync();
     console.log(token);
+    Notifications.setBadgeNumberAsync(0);
   };
   useEffect(() => {
     ask();
