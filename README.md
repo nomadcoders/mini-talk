@@ -1,2 +1,2 @@
 # Minitalk
-Learning Subscriptions and Notifications with React Native
+Learning Apollo Subscriptions, React Suspense and Notifications with React Native
